@@ -1,4 +1,4 @@
 docker run -it \
-    -w /project \
-    -v `pwd`/project:/project \
-    learning-julia /bin/bash -c "julia -e \"using Pkg; Pkg.activate(\\\".\\\")\" && julia \"${1}\" \"${2}\""
+    -w /home/julia \
+    -v `pwd`/src:/home/julia/notebook \
+    learning-julia /bin/bash -c "julia \"${1}\" \"${2}\""
