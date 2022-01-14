@@ -1,1 +1,1 @@
-docker build -t learning-julia .
+docker build  --progress plain -t learning-julia .
