@@ -7,6 +7,7 @@ RUN echo "\
     using Pkg;\
     Pkg.add(\"Genie\");\
     Pkg.add(\"Stipple\");\
+    Pkg.add(\"StippleUI\");\
     Pkg.precompile();\
     " > /install.jl
 RUN julia /install.jl
