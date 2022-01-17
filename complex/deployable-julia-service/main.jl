@@ -1,3 +1,4 @@
+__precompile__()
 
 using Genie
 route("/") do
@@ -17,4 +18,4 @@ route("/json") do
 end
 
 # Start the app!
-up(8888, async = false)
+up(8080, "0.0.0.0", async = false)
