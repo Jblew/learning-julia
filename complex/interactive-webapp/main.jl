@@ -42,4 +42,4 @@ route("/") do
     html(ui(model), context = @__MODULE__)
 end
 
-isrunning(:webserver) || up(8080, "0.0.0.0")
+isrunning(:webserver) || up(8080, "0.0.0.0", async = false)
