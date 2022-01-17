@@ -1,0 +1,4 @@
+name = "CompiledWebservice"
+uuid = "9c443105-9363-4724-ab64-6abe9d30bf12"
+authors = ["Jędrzej Lewandowski <jedrzejblew@gmail.com>"]
+version = "0.1.0"
